@@ -12,7 +12,8 @@ function doisZeros(digito){
 }
 
 function iniciar(){
-    cancelar =setInterval(rodar,1)
+    rodar()
+    cancelar =setInterval(rodar,10)
 }
 
 function pausar(){
